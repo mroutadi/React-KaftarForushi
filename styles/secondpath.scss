@@ -1,0 +1,138 @@
+.secondpath-container {
+  width: 60%;
+  margin: auto;
+  height: 425px;
+  display: grid;
+  direction: rtl;
+  padding-bottom: 200px;
+  grid-template-columns: 32% 32% 32%;
+  grid-template-rows: 48% 48%;
+  align-content: space-between;
+  justify-content: space-between;
+  grid-template-areas: 
+  "simple1 simple2 with"
+  "simple3 simple4 with"
+  ;
+  & > div {
+    border-radius: 25px;
+  }
+  @media screen and (max-width: 1250.0521px) {
+    width: 75%;
+  }
+  @media screen and (max-width: 850.058px) {
+    width: 90%;
+  }
+  @media screen and (max-width: 650.056px) {
+    width: 95%;
+    height: 250px;
+    padding-bottom: 50px;
+    grid-template-areas: 
+    "simple1 simple2 with"
+    "simple3 simple4 with"
+    ;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: 48% 48%;
+  }
+
+  .Simple {
+    background-color: #FFF;
+    box-shadow: 0 0 25px -15px #0004;
+    direction: rtl;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: left;
+    position: relative;
+    text-decoration: none;
+    @media screen and (max-width: 1250.0521px) {
+      grid-template-columns: 100%;
+      grid-template-rows: 75% 25%;
+    }
+    img {
+      max-width: 90%;
+      max-height: 100%;
+      margin: auto;
+      @media screen and (max-width: 1250.0521px) {
+        max-width: 80%;
+        max-height: 90%;
+      }
+    }
+    span {
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.25rem;
+      color: #3D4672;
+      font-family: Yekan;
+      position: absolute;
+      left: 5%;
+      bottom: 0;
+      height: 50px;
+      @media screen and (max-width: 1250.0521px) {
+        position: relative;
+        left: 0;
+        text-align: center;
+      }
+      @media screen and (max-width: 850.058px) {
+        font-size: 1rem;
+      }
+      @media screen and (max-width: 650.056px) {
+        font-size: 0.7rem;
+      }
+    }
+  }
+  .Withsign {
+    background-color: #FFF;
+    box-shadow: 0 0 25px -15px #0004;
+    text-align: center;
+    grid-row: 1/3;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 75% 25%;
+    padding: 0;
+    text-decoration: none;
+    @media screen and (max-width: 650.056px) {
+      grid-template-rows: 60% 40%;
+    }
+
+    img {
+      max-width: 90%;
+      max-height: 100%;
+      margin: auto;
+    }
+    span {
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.5rem;
+      color: #3D4672;
+      font-family: Yekan;
+      @media screen and (max-width: 850.058px) {
+        font-size: 1rem;
+      }
+      @media screen and (max-width: 650.056px) {
+        font-size: 0.8rem;
+      }
+    }
+    &::after {
+      content: 'ثبت نام کنید';
+      width: 55%;
+      color: white;
+      background-color: #FFC000;
+      position: relative;
+      top: -50px;
+      font-family: Yekan;
+      height: 30px;
+      padding: 10px 0;
+      border-radius: 25px 25px 0 0;
+      margin: auto;
+      font-size: 1.2rem;
+      @media screen and (max-width: 850.058px) {
+        width: 85%;
+        font-size: 1rem;
+      }
+      @media screen and (max-width: 650.056px) {
+        width: 100%;
+        font-size: 0.9rem;
+        border-radius: 0;
+      }
+    }
+  }
+}

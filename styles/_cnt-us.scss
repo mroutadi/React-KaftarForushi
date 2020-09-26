@@ -1,0 +1,139 @@
+.Contact-us {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  @media screen and (max-width: 1850.0581px) {
+    width: 75%;
+  }
+  @media screen and (max-width: 1520.0251px) {
+    width: 80%;
+  }
+  @media screen and (max-width: 1250.0521px) {
+    width: 85%;
+  }
+  @media screen and (max-width: 850.058px) {
+    width: 90%;
+  }
+  @media screen and (max-width: 650.056px) {
+    width: 100%;
+  }
+
+  .cnt-us-dec {
+    font-size: 1.25rem;
+    line-height: 3rem;
+    width: 70%;
+    margin: auto;
+    font-family: Yekan;
+    color: #8485A9;
+    @media screen and (max-width: 1250.0521px) {
+      width: 90%;
+    }
+  }
+
+  .under-ways {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    height: 100px;
+    @media screen and (max-width: 1520.0251px) {
+      grid-template-columns: 100%;
+      height: 300px;
+    }
+    p {
+      font-size: 1rem;
+      padding-top: 25px;
+      border-right: 1px solid #A9AAC255;
+      line-height: 2.5rem;
+      color: #8485A9;
+      font-family: Yekan;
+      span {
+        font-weight: bold;
+        color: #8485A9;
+        font-family: Yekan;
+      }
+      @media screen and (max-width: 1520.0251px) {
+        border: none;
+        text-align: right;
+      }
+    }
+    p:nth-child(2) {
+      text-align: left;
+      width: 85%;
+      margin: auto;
+
+      @media screen and (max-width: 1520.0251px) {
+        width: 100%;
+        text-align: right;
+      }
+    }
+    p:last-child {
+      border: none;
+    }
+  }
+  .solcial-networks {
+    width: 580px;
+    display: grid;
+    margin: auto;
+    justify-content: space-between;
+    grid-template-columns: 180px 180px 180px;
+    padding-top: 50px;
+    @media screen and (max-width: 650.056px) {
+      width: 100%;
+      grid-template-columns: 100%;
+      padding-top: 10px;
+
+    }
+    button {
+      border: none;
+      color: white;
+      height: 50px;
+      width: 180px;
+      border-radius: 5px;
+      font-family: Yekan;
+    @media screen and (max-width: 650.056px) {
+      margin: 5px auto;
+    }
+    }
+    @media screen and (max-width: 1850.0581px) {
+      padding-top: 75px;
+    }
+    #whatsapp-button {
+      background: rgb(82,242,111);
+      background: linear-gradient(90deg, rgba(82,242,111,1) 0%, rgba(37,207,67,1) 100%); 
+    }
+    #telegram-button  {
+      background: rgb(13,192,247);
+      background: linear-gradient(90deg, rgba(13,192,247,1) 0%, rgba(53,135,219,1) 100%); 
+    }
+    #instagram-button {
+      background: rgb(234,91,95);
+      background: linear-gradient(90deg, rgba(234,91,95,1) 0%, rgba(218,57,124,1) 25%, rgba(188,51,151,1) 50%, rgba(139,62,178,1) 75%, rgba(92,88,204,1) 100%); 
+    }
+  }
+
+  .flw-us-txt {
+    width: 100%;
+    padding: 25px 0;
+    color: #8485A9;
+    font-size: 1rem;
+    font-family: Yekan;
+  }
+  .cnt-us-adv {
+    background: rgb(5,195,211);
+    background: linear-gradient(90deg, rgba(5,195,211,1) 0%, rgba(1,177,186,1) 100%); 
+    border: none;
+    margin: auto;
+    width: 270px;
+    height: 65px;
+    color: white;
+    border-radius: 40px;
+    a {
+      transform: translate(-50%, -50%);
+      position: relative;
+      top: 25%;
+      text-decoration: none;
+      font-family: Yekan;
+      font-size: 1.3rem;
+      color: white;
+    }
+  }
+}

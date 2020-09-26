@@ -1,0 +1,42 @@
+{
+  "name": "Ava",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chakra-ui/core": "^0.8.0",
+    "@emotion/core": "^10.0.35",
+    "@emotion/styled": "^10.0.27",
+    "@material-ui/core": "^4.11.0",
+    "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.20.0",
+    "css-loader": "^4.2.1",
+    "downshift": "^6.0.5",
+    "emotion-theming": "^10.0.27",
+    "file-loader": "^6.0.0",
+    "moment": "^2.27.0",
+    "moment-timezone": "^0.5.31",
+    "next": "^9.5.2",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-awesome-slider": "^4.1.0",
+    "react-dom": "^16.13.1",
+    "react-moment": "^0.9.7",
+    "react-responsive-animate-navbar": "^1.1.8",
+    "react-slick": "^0.27.10",
+    "reactstrap": "^8.5.1",
+    "slick-carousel": "^1.8.1",
+    "style-loader": "^1.2.1",
+    "styled": "^1.0.0",
+    "styled-components": "^5.2.0",
+    "url-loader": "^4.1.0"
+  }
+}

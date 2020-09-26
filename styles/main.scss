@@ -1,0 +1,33 @@
+@import './header';
+@import './slider';
+@import './search';
+@import './Ad';
+@import './title';
+@import './birdcarousel';
+@import './secondpath';
+@import './OfferSider';
+@import './article';
+@import './cnt-us';
+@import './footer';
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
+
+@font-face {
+  font-family: "Yekan";
+  src:url(./Yekan/ttf/IRANSansWeb.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Yekan";
+  src:url(./Yekan/ttf/IRANSansWeb_Bold.ttf) format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-size: 16px;
+  background-color: #FAFBFE;
+  overflow-x: hidden;
+}

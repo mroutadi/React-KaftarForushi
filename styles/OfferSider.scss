@@ -1,0 +1,213 @@
+.Offer-slider {
+  padding: 50px 0;
+  width: 70%;
+  margin: auto;
+  height: 600px;
+  @media screen and (max-width: 1520.0251px) {
+    width: 85%;
+    height: 500px;
+  }
+  @media screen and (max-width: 850.058px) {
+    width: 95%;
+    height: 400px;
+  }
+  @media screen and (max-width: 650.056px) {
+    width: 95%;
+    height: 300px;
+  }
+  & > div {
+    & > div {
+      overflow: visible !important;
+    }
+    button {
+      width: 60px;
+      height: 60px;
+      z-index: 29;
+      font-family: Yekan;
+      border-radius: 25px;
+      transition: 0.3s;
+      &:hover {
+        box-shadow: 0 0 15px -10px #000;
+        transition: 0.3s;
+      }
+    }
+    button::before {
+      background-color: white;
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      color: black;
+      font-size: 40px;
+      border-radius: 30px;
+      opacity: 1;
+      font-family: 'Jua', sans-serif;
+      box-shadow: 0 0 15px -10px #0009;
+    }
+    .slick-next::before {
+      content: '>';
+    }
+    .slick-prev::before {
+      content: '<';
+    }
+  }
+}
+
+
+.carousel-link {
+  text-decoration: none ;
+  text-align: center;
+}
+
+.offer-item {
+  display: grid;
+  grid-template-rows: 0 65% 10% 17.5%;
+  grid-template-columns: 100%;
+  height: 600px;
+  width: 95%;
+  background-color: white;
+  box-shadow: 0 0 10px -5px #0003;
+  margin: 10px auto;
+  border-radius: 25px;
+  transition: 0.3s;
+  @media screen and (max-width: 1520.0251px) {
+    height: 500px;
+    width: 90%;
+  }
+  @media screen and (max-width: 1250.0521px) {
+    height: 450px;
+    width: 80%;
+  }
+  @media screen and (max-width: 850.058px) {
+    height: 400px;
+    width: 75%;
+  }
+  @media screen and (max-width: 650.056px) {
+    height: 300px;
+    width: 85%;
+    grid-template-rows: 0 55% 15% 17.5%;
+  }
+  &:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+  }
+  img {
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+  }
+  .offerItem-title {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    width: 80%;
+    margin: auto;
+    font-family: Yekan;
+    line-height: 2rem;
+    color: #2B376F;
+    @media screen and (max-width: 1520.0251px) {
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+    }
+    @media screen and (max-width: 1250.0521px) {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+    @media screen and (max-width: 850.058px) {
+      font-size: 0.75rem;
+      line-height: 1.25rem;
+    }
+    @media screen and (max-width: 650.056px) {
+      font-size: 0.75rem;
+      line-height: 1rem;
+    }
+  }
+  .offerItem-info {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    align-content: center;
+    font-family: Yekan;
+
+    .offerItem-price:first-child {
+      text-align: center;
+      direction: rtl;
+      color: #20BCC9;
+      font-size: 2rem;
+      font-weight: bold;
+      height: 25px;
+      font-family: Yekan;
+      padding-top: 5px;
+      @media screen and (max-width: 1520.0251px) {
+        font-size: 1.75rem;
+      }
+      @media screen and (max-width: 1250.0521px) {
+        font-size: 1.5rem;
+      }
+      @media screen and (max-width: 850.058px) {
+        font-size: 1.25rem;
+      }
+      @media screen and (max-width: 650.056px) {
+        font-size: 1rem;
+      }
+    }
+    .offerItem-price:last-child {
+      text-decoration: line-through;
+      text-align: center;
+      direction: rtl;
+      color: #A2A2A2;
+      font-size: 1.5rem;
+      font-family: Yekan;
+      height: 25px;
+      padding-top: 5px;
+      @media screen and (max-width: 1520.0251px) {
+        font-size: 1.3rem;
+      }
+      @media screen and (max-width: 1250.0521px) {
+        font-size: 1rem;
+      }
+      @media screen and (max-width: 850.058px) {
+        font-size: 0.75rem;
+      }
+      @media screen and (max-width: 650.056px) {
+        font-size: 0.65rem;
+      }
+    }
+  }
+  .offerItem-seller {
+    text-align: center;
+    direction: rtl;
+    position: relative;
+    top: 30px;
+    left: -50px;
+    font-family: Yekan;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 175px;
+    height: 40px;
+    padding-top: 10px;
+    color: white;
+    border-radius: 25px 25px 0px 25px;
+    @media screen and (max-width: 1250.0521px) {
+      font-size: 1rem;
+      width: 125px;
+      height: 35px;
+    }
+    @media screen and (max-width: 850.058px) {
+      font-size: 0.75rem;
+      width: 90px;
+      height: 25px;
+      padding-top: 5px;
+    }
+    @media screen and (max-width: 650.056px) {
+      left: -25px;
+      top: 5px;
+    }
+  }
+  .offerItem-seller-other {
+    background: rgb(206,208,219);
+    background: linear-gradient(90deg, rgba(206,208,219,1) 0%, rgba(174,171,189,1) 100%); 
+  }
+  .offerItem-seller-us {
+    background: rgb(235,202,99);
+    background: linear-gradient(90deg, rgba(235,202,99,1) 0%, rgba(215,179,70,1) 100%); 
+  }
+}
